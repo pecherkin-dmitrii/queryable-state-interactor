@@ -1,0 +1,12 @@
+A Flink queryable state interactor app.
+
+Creating fat jar by "sbt clean assembly".
+
+Jar args:
+1) task manager host
+2) proxyPort
+3) jobID
+4) queryableListStateName
+5) queryableValueStateName
+6) queryableMapStateName
+7) key for which need to get a state
